@@ -1,4 +1,4 @@
-FROM golang:1.19-alpine
+FROM golang:alpine3.20
 WORKDIR /go/src/app
 COPY . .
 RUN go mod init jenkins-app
